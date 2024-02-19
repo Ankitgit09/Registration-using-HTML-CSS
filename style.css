@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/wp9166739.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .container {
+    width: 100%;
+    max-width: 680px;
+    height: 600px;
+    padding: 30px;
+    margin: 0 28px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(50px);
+    border: 3px solid rgb(255, 253, 253, 0.6);
+    margin-left: 170px;
+  }
+  .form-title {
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 6px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 2;
+  }
+  .main-user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  .user-input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+    gap: 10px;
+  }
+  .user-input-box:nth-child(2n) {
+    justify-content: end;
+  }
+  #userName,
+  #phoneNumber,
+  #confirmPassword {
+    margin-left: 15px;
+  }
+  #fullName,
+  #email,
+  #password {
+    margin-right: 15px;
+  }
+  .user-input-box input::placeholder {
+    color: #fff;
+  }
+  .user-input-box input {
+    height: 50px;
+    width: 600px;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+  }
+  .gender-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
+  }
+  .gender-category {
+    margin: 15px 0;
+    color: #fff;
+  }
+  .gender-category label {
+    padding: 0 20px 0 5px;
+    font-size: 20px;
+  }
+  .gender-category label,
+  .gender-category input,
+  .form-submit-btn input {
+    cursor: pointer;
+  }
+  .form-submit-btn {
+    margin-top: 40px;
+  }
+  .form-submit-btn input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #a7a7a7;
+    border-radius: 5px;
+    color: #fff;
+    background: none;
+  }
+  .form-submit-btn input:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+  }
